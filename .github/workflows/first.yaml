@@ -1,0 +1,8 @@
+name: test-class
+on: push
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first-step
+        run: echo "Hello World"
